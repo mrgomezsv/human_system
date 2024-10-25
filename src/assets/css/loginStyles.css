@@ -79,3 +79,17 @@
 .social-auth-links {
   margin: 10px 0;
 }
+
+/* Quita el subrayado y la negrita, y añade espacio debajo del título */
+.card-header a {
+    color: #343a40; /* Asegúrate de que el color se vea bien */
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: normal; /* Quita la negrita */
+  }
+  
+  .card-header h1 {
+    margin-bottom: 2rem; /* Añade espacio debajo del título */
+    font-weight: normal; /* Quita la negrita del texto */
+    font-size: 2rem; /* Ajusta el tamaño del texto si es necesario */
+  }
+  

@@ -14,17 +14,17 @@ const LoginPage = () => {
     <>
       <Head title={title} />
       <div className="login-page bg-body-secondary">
-        <div className="login-box">
-          <div className="card card-outline card-primary">
-            <div className="card-header">
+      <div className="card-header">
               <a href={`${htmlPath}/index2.html`} className="link-dark text-center link-offset-2 link-opacity-100 link-opacity-50-hover">
                 <h1 className="mb-0">
                   <b>Human Consulting</b>
                 </h1>
               </a>
             </div>
+        <div className="login-box">
+          <div className="card card-outline card-primary">
             <div className="card-body login-card-body">
-              <p className="login-box-msg">Sign in to start your session</p>
+              <p className="login-box-msg">Sign in to start your Admin Session</p>
               <form action={`${htmlPath}/index3.html`} method="post">
                 <div className="input-group mb-1">
                   <div className="form-floating">
@@ -60,7 +60,7 @@ const LoginPage = () => {
                   </div>
                 </div>
               </form>
-              <div className="social-auth-links text-center mb-3 d-grid gap-2">
+              {/* <div className="social-auth-links text-center mb-3 d-grid gap-2">
                 <p>- OR -</p>
                 <a href="#" className="btn btn-primary">
                   <i className="bi bi-facebook me-2"></i> Sign in using Facebook
@@ -68,7 +68,7 @@ const LoginPage = () => {
                 <a href="#" className="btn btn-danger">
                   <i className="bi bi-google me-2"></i> Sign in using Google+
                 </a>
-              </div>
+              </div> */}
               <p className="mb-1">
                 <a href="forgot-password.html">I forgot my password</a>
               </p>
