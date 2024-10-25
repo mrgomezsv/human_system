@@ -15,12 +15,12 @@ const LoginPage = () => {
       <Head title={title} />
       <div className="login-page bg-body-secondary">
       <div className="card-header">
-              <a href={`${htmlPath}/index2.html`} className="link-dark text-center link-offset-2 link-opacity-100 link-opacity-50-hover">
+        <a href={`${htmlPath}/index2.html`} className="link-dark text-center link-offset-2 link-opacity-100 link-opacity-50-hover">
                 <h1 className="mb-0">
                   <b>Human Consulting</b>
                 </h1>
-              </a>
-            </div>
+        </a>
+      </div>
         <div className="login-box">
           <div className="card card-outline card-primary">
             <div className="card-body login-card-body">

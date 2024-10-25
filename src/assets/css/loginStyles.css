@@ -1,4 +1,4 @@
-/* Pages: Login & Register */
+/* Páginas: Login & Register */
 
 .login-logo,
 .register-logo {
@@ -10,7 +10,7 @@
 
 .login-logo a,
 .register-logo a {
-  color: #6c757d; /* Secondary color */
+  color: #6c757d; /* Color secundario */
   text-decoration: none;
 }
 
@@ -23,9 +23,11 @@
   min-height: 100vh;
 }
 
+/* Estilo del contenedor principal de la caja de login */
 .login-box,
 .register-box {
   width: 360px;
+  margin-top: 1rem; /* Espacio superior para la caja */
 }
 
 @media (max-width: 576px) { /* Ajuste para pantallas pequeñas */
@@ -41,32 +43,32 @@
   margin-bottom: 0;
 }
 
+/* Estilo específico para el encabezado */
+.card-header {
+  margin-bottom: 2rem; /* Espacio inferior para separar del contenido de abajo */
+  text-align: center;
+}
+
+/* Eliminar subrayado y negrita en el enlace */
+.card-header a {
+  text-decoration: none;
+  color: #343a40; /* Cambia el color si es necesario */
+  font-weight: normal;
+}
+
+/* Ajuste de encabezado para mayor espacio y sin negrita */
+.card-header h1 {
+  margin-bottom: 1rem; /* Espacio debajo del título */
+  font-weight: normal; /* Quita la negrita */
+  font-size: 2rem; /* Ajusta el tamaño si es necesario */
+}
+
 .login-card-body,
 .register-card-body {
   padding: 20px;
-  color: #6c757d; /* Secondary color */
-  background-color: #f8f9fa; /* Body background */
+  color: #6c757d; /* Color secundario */
+  background-color: #f8f9fa; /* Fondo claro */
   border-top: 0;
-}
-
-.input-group .form-control:focus {
-  box-shadow: none;
-  border-color: #80bdff; /* Focus border color */
-}
-
-.input-group .form-control.is-valid:focus {
-  border-color: #28a745; /* Success color */
-}
-
-.input-group .form-control.is-invalid:focus {
-  border-color: #dc3545; /* Danger color */
-}
-
-.input-group .input-group-text {
-  color: #6c757d; /* Secondary color */
-  background-color: transparent;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out;
 }
 
 .login-box-msg,
@@ -76,20 +78,28 @@
   text-align: center;
 }
 
+/* Grupo de entrada */
+.input-group .form-control:focus {
+  box-shadow: none;
+}
+
+.input-group-text {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+/* Enlaces de autenticación social */
 .social-auth-links {
   margin: 10px 0;
 }
 
-/* Quita el subrayado y la negrita, y añade espacio debajo del título */
-.card-header a {
-    color: #343a40; /* Asegúrate de que el color se vea bien */
-    text-decoration: none; /* Quita el subrayado */
-    font-weight: normal; /* Quita la negrita */
-  }
-  
-  .card-header h1 {
-    margin-bottom: 2rem; /* Añade espacio debajo del título */
-    font-weight: normal; /* Quita la negrita del texto */
-    font-size: 2rem; /* Ajusta el tamaño del texto si es necesario */
-  }
-  
+.social-auth-links a {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p.mb-1,
+p.mb-0 {
+  margin-top: 1rem; /* Ajusta espacio entre enlaces de texto */
+}
