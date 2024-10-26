@@ -60,15 +60,6 @@ const LoginPage = () => {
                   </div>
                 </div>
               </form>
-              {/* <div className="social-auth-links text-center mb-3 d-grid gap-2">
-                <p>- OR -</p>
-                <a href="#" className="btn btn-primary">
-                  <i className="bi bi-facebook me-2"></i> Sign in using Facebook
-                </a>
-                <a href="#" className="btn btn-danger">
-                  <i className="bi bi-google me-2"></i> Sign in using Google+
-                </a>
-              </div> */}
               <p className="mb-1">
                 <a href="forgot-password.html">I forgot my password</a>
               </p>
